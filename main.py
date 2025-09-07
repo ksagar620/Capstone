@@ -5,9 +5,9 @@ import os
 
 #-------------------Environment Variable Here----------------------------------------------------------------------------------
 #------------------------------------------------------------------------------------------------------------------------------
-domain = "https://amedeloitte.sharepoint.com/sites/RFPAutomation"
-username = "sagarkumar4@deloitte.com"
-pwd = "Gurgaon@1234"
+domain = "https://*.sharepoint.com/sites/RFPAutomation"
+username = ""
+pwd = ""
 
 Refernece_folder_url = "/sites/RFPAutomation/Shared Documents/General/RFP"
 local_directory_Input = "C://Users/sagarkumar4/Documents/AutomationHubPoc/RFP Usecase/TestDocs"
@@ -60,4 +60,5 @@ while True:
         time.sleep(30)
 
     else:
+
         print("No File Downloaded")
